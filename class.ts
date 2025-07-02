@@ -10,21 +10,3 @@ players.push(sakib);
 
 console.log(sakib);
 console.log("This is players array: ", players)
-
-
-interface rectangleOptions {
-    width: number;
-    height: number;
-}
-
-function rectangleOptions (options: rectangleOptions): number {
-    let width = options.width
-    let height = options.height
-
-    return width * height
-}
-
-rectangleOptions({
-    width: 40,
-    height: 30
-})
