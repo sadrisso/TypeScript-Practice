@@ -3,5 +3,5 @@ export interface IsPlayer {
     country: string
 
     play() : void
-    
+    getProperty() : number
 }
