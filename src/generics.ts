@@ -10,6 +10,8 @@ let user = addId({
     country: "BD",
 })
 
+enum ResTypes {SUCCESS, FAILURE, UNAUTHANTICATED, FORBIDDEN}
+
 
 interface APIResponse <T> {
     status: number
@@ -18,7 +20,7 @@ interface APIResponse <T> {
 }
 
 const response1: APIResponse <object> = {
-    status: 200,
+    status: ResTypes.SUCCESS,
     type: "Ok",
     data: {data: "..."}
 }

@@ -1,4 +1,4 @@
-import { Player } from "./classes/Player.js";
+import { Player } from "./Player.js";
 
 const mashrafi = new Player("Mashrafi", 40, "Bangladesh");
 const sakib = new Player("Sakib", 33, "BD");

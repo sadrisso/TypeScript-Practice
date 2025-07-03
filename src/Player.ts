@@ -1,4 +1,4 @@
-import { IsPlayer } from "../interfaces/isPlayer";
+import { IsPlayer } from "./isPlayer";
 
 export class Player implements IsPlayer {
   constructor(
