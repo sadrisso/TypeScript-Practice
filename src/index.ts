@@ -9,6 +9,16 @@ const userDetails = (id: stringOrNumber, age: userType) => {
     return console.log(`your id is: ${id} and age is ${age?.age}`)
 }
 
+const myInfo = (name: string, age: stringOrNumber, country: string) : stringOrNumber => {
+    return `My name is ${name} I am ${age} years old And I live in ${country}`
+}
+
+const getAge = (birthYear: number, persentYear: number) => {
+    return `My age is: ${persentYear - birthYear}`;
+}
+
+const vegetables: (stringOrNumber | boolean)[] = ['alu', 'potol', 'lau', 'kumra', 90, true]
+
 welcome({name: "Drisso", age: 25})
 userDetails(1, {name: "drisso", age: 25})
 
@@ -24,3 +34,5 @@ calculation = (x: number, y: number, z: string) => {
 }
 
 console.log(calculation(4, 3, ""))
+console.log(getAge(2001, 2025))
+console.log(vegetables)
